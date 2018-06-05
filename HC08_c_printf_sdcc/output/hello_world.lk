@@ -1,0 +1,10 @@
+-muwx
+-s hello_world.s19
+-Y
+-b HOME = 0x8000
+-b DSEG = 0x0080
+-k C:\Program Files\SDCC\bin\..\lib\hc08
+-l hc08
+hello_world.rel
+
+-e
