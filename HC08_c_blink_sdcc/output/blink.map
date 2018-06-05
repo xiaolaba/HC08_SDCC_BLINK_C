@@ -1,0 +1,218 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  l_CABS                          
+C:   00000000  l_CODEIVT                       
+C:   00000000  l_CONST                         
+C:   00000000  l_GSINIT                        
+C:   00000000  l_HOME                          
+C:   00000000  l_IABS                          
+C:   00000000  l_OSEG                          
+C:   00000000  l_XABS                          
+C:   00000000  l_XINIT                         
+C:   00000000  l_XISEG                         
+C:   00000000  l_XSEG                          
+C:   00000000  l__CODE                         
+C:   00000000  s_CABS                          
+C:   00000000  s_CODEIVT                       
+C:   00000000  s_CODEIVT0                      
+C:   00000000  s_IABS                          
+C:   00000000  s_XABS                          
+C:   00000000  s__CODE                         
+C:   00000002  l_CODEIVT0                      
+C:   00000002  l_DSEG                          
+C:   00000003  l_GSFINAL                       
+C:   0000001E  l_GSINIT0                       
+C:   00000038  l_CSEG                          
+C:   00000080  s_DSEG                          
+C:   00000082  s_OSEG                          
+C:   00000082  s_XISEG                         
+C:   00000082  s_XSEG                          
+C:   00008000  s_GSINIT0                       
+C:   00008000  s_HOME                          
+C:   0000801E  s_GSFINAL                       
+C:   0000801E  s_GSINIT                        
+C:   00008021  s_CSEG                          
+C:   00008059  s_CONST                         
+C:   00008059  s_XINIT                         
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODEIVT0                            00000000    00000002 =           2. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _startup
+     00000000  _PTA                               blink
+     00000001  _PTB                               blink
+     00000002  _PTC                               blink
+     00000003  _PTD                               blink
+     00000004  _DDRA                              blink
+     00000005  _DDRB                              blink
+     00000006  _DDRC                              blink
+     00000007  _DDRD                              blink
+     00000008  _PTE                               blink
+     0000000C  _DDRE                              blink
+     0000000D  _PTAPUE                            blink
+     0000000E  _PTCPUE                            blink
+     0000000F  _PTDPUE                            blink
+     00000010  _SPCR                              blink
+     00000011  _SPSCR                             blink
+     00000012  _SPDR                              blink
+     00000013  _SCC1                              blink
+     00000014  _SCC2                              blink
+     00000015  _SCC3                              blink
+     00000016  _SCS1                              blink
+     00000017  _SCS2                              blink
+     00000018  _SCDR                              blink
+     00000019  _SCBR                              blink
+     0000001A  _INTKBSCR                          blink
+     0000001B  _INTKBIER                          blink
+     0000001C  _TBCR                              blink
+     0000001D  _INTSCR                            blink
+     0000001E  _CONFIG2                           blink
+     0000001F  _CONFIG1                           blink
+     00000020  _T1SC                              blink
+     00000021  _T1CNT                             blink
+     00000021  _T1CNTH                            blink
+     00000022  _T1CNTL                            blink
+     00000023  _T1MOD                             blink
+     00000023  _T1MODH                            blink
+     00000024  _T1MODL                            blink
+     00000025  _T1SC0                             blink
+     00000026  _T1CH0                             blink
+     00000026  _T1CH0H                            blink
+     00000027  _T1CH0L                            blink
+     00000028  _T1SC1                             blink
+     00000029  _T1CH1                             blink
+     00000029  _T1CH1H                            blink
+     0000002A  _T1CH1L                            blink
+     0000002B  _T2SC                              blink
+     0000002C  _T2CNT                             blink
+     0000002C  _T2CNTH                            blink
+     0000002D  _T2CNTL                            blink
+     0000002E  _T2MOD                             blink
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000002E  _T2MODH                            blink
+     0000002F  _T2MODL                            blink
+     00000030  _T2SC0                             blink
+     00000031  _T2CH0                             blink
+     00000031  _T2CH0H                            blink
+     00000032  _T2CH0L                            blink
+     00000033  _T2SC1                             blink
+     00000034  _T2CH1                             blink
+     00000034  _T2CH1H                            blink
+     00000035  _T2CH1L                            blink
+     00000036  _PCTL                              blink
+     00000037  _PBWC                              blink
+     00000038  _PMSH                              blink
+     00000039  _PMSL                              blink
+     0000003A  _PMRS                              blink
+     0000003B  _PMDS                              blink
+     0000003C  _ADSCR                             blink
+     0000003D  _ADR                               blink
+     0000003E  _ADCLK                             blink
+     0000FE00  _SBSR                              blink
+     0000FE01  _SRSR                              blink
+     0000FE02  _SUBAR                             blink
+     0000FE03  _SBFCR                             blink
+     0000FE04  _INT1                              blink
+     0000FE05  _INT2                              blink
+     0000FE06  _INT3                              blink
+     0000FE07  _FLCTR                             blink
+     0000FE08  _FLCR                              blink
+     0000FE09  _BRK                               blink
+     0000FE09  _BRKH                              blink
+     0000FE0A  _BRKL                              blink
+     0000FE0B  _BRKSCR                            blink
+     0000FE0C  _LVISR                             blink
+     0000FE7E  _FLBPR                             blink
+     0000FFFF  _COPCTL                            blink
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             00008000    0000001E =          30. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             0000801E    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00008021    00000038 =          56. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00008026  _delay1ms                          blink
+C:   0000802E  _delay                             blink
+C:   00008045  _main                              blink
+C:   00008057  __sdcc_external_startup            _startup
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000080    00000002 =           2. bytes (REL,CON,PAG)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+
+Files Linked                              [ module(s) ]
+
+blink.rel                                 [ blink ]
+
+
+Libraries Linked                          [ object file ]
+
+C:\Program Files\SDCC\bin\..\lib\hc08/hc08.lib
+                                          [ _startup.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+
+User Base Address Definitions
+
+HOME = 0x8000
+DSEG = 0x0080
+
+
