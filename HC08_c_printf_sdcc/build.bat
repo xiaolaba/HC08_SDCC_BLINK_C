@@ -1,4 +1,11 @@
-sdcc -mhc08 --stack-auto -c hello_world.c
+::sdcc -mhc08 --stack-auto -c hello_world.c
+::sdcc -mhc08 hello_world.c
+
+
+sdcc -c -mhc08 --stack-auto hello_world.c 
+sdcc -c -mhc08 --stack-auto printf.c 
+sdcc -mhc08 --code-loc 0xDC00 -o hello_world.S19 hello_world.rel printf.rel  
+
 pause
 
 mkdir output
