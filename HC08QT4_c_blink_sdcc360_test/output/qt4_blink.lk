@@ -1,0 +1,10 @@
+-muwx
+-s qt4_blink.S19
+-Y
+-b HOME = 0xee00
+-b DSEG = 0x0080
+-k C:\Program Files\SDCC\bin\..\lib\hc08
+-l hc08
+qt4_blink.rel
+
+-e

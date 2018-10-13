@@ -1,0 +1,99 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Motorola 68HC(S)08), page 1.
+Hexadecimal [16-Bits]
+
+Symbol Table
+
+    .__.$$$.                                                    =  2710 L
+    .__.ABS.                                                    =  0000 G
+    .__.CPU.                                                    =  0000 L
+    .__.H$L.                                                    =  0001 L
+    _ADICLK                                                     =  003F G
+    _ADR                                                        =  003E G
+    _ADSCR                                                      =  003C G
+    _BFCF                                                       =  FE03 G
+    _BRK                                                        =  FE09 G
+    _BRKAR                                                      =  FE02 G
+    _BRKH                                                       =  FE09 G
+    _BRKL                                                       =  FE0A G
+    _BRKSCR                                                     =  FE0B G
+    _BSR                                                        =  FE00 G
+    _CONFIG1                                                    =  001F G
+    _CONFIG2                                                    =  001E G
+    _COPCTL                                                     =  FFFF G
+    _DDRA                                                       =  0004 G
+    _DDRB                                                       =  0005 G
+    _FLBPR                                                      =  FFBE G
+    _FLCR                                                       =  FE08 G
+    _INT1                                                       =  FE04 G
+    _INT2                                                       =  FE05 G
+    _INT3                                                       =  FE06 G
+    _INTSCR                                                     =  001D G
+    _KBIER                                                      =  001B G
+    _KBSCR                                                      =  001A G
+    _LVISR                                                      =  FE0C G
+    _OSCSTAT                                                    =  0036 G
+    _OSCTRIM                                                    =  0038 G
+    _OSCTRIMVAL                                                 =  FFC0 G
+    _PTA                                                        =  0000 G
+    _PTAPUE                                                     =  000B G
+    _PTB                                                        =  0001 G
+    _PTBPUE                                                     =  000C G
+    _SRSR                                                       =  FE01 G
+    _TCH0                                                       =  0026 G
+    _TCH0H                                                      =  0026 G
+    _TCH0L                                                      =  0027 G
+    _TCH1                                                       =  0029 G
+    _TCH1H                                                      =  0029 G
+    _TCH1L                                                      =  002A G
+    _TCNT                                                       =  0021 G
+    _TCNTH                                                      =  0021 G
+    _TCNTL                                                      =  0022 G
+    _TMOD                                                       =  0023 G
+    _TMODH                                                      =  0023 G
+    _TMODL                                                      =  0024 G
+    _TSC                                                        =  0020 G
+    _TSC0                                                       =  0025 G
+    _TSC1                                                       =  0028 G
+    __sdcc_external_startup                                        **** GX
+  2 __sdcc_gs_init_startup                                         0000 R
+  2 __sdcc_init_data                                               000C R
+  5 __sdcc_program_startup                                         0000 R
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Motorola 68HC(S)08), page 2.
+Hexadecimal [16-Bits]
+
+Symbol Table
+
+  5 _blinkLED                                                      0029 GR
+  5 _delay                                                         0012 GR
+  5 _delay1ms                                                      0005 GR
+  8 _delay_sloc0_1_0                                               0000 R
+  5 _main                                                          0039 GR
+    l_XINIT                                                        **** GX
+  5 loopa                                                          0007 R
+    s_XINIT                                                        **** GX
+    s_XISEG                                                        **** GX
+
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Motorola 68HC(S)08), page 3.
+Hexadecimal [16-Bits]
+
+Area Table
+
+   0 _CODE                                      size    0   flags    0
+   1 HOME                                       size    0   flags   20
+   2 GSINIT0                                    size   1E   flags   20
+   3 GSINIT                                     size    0   flags   20
+   4 GSFINAL                                    size    3   flags   20
+   5 CSEG                                       size   45   flags   20
+   6 XINIT                                      size    0   flags   20
+   7 CONST                                      size    0   flags   20
+   8 DSEG                                       size    2   flags   10
+   9 OSEG                                       size    0   flags   14
+   A XSEG                                       size    0   flags    0
+   B XISEG                                      size    0   flags    0
+   C CODEIVT                                    size    0   flags    8
+   D CODEIVT0                                   size    2   flags    8
+   E IABS                                       size    0   flags    8
+   F XABS                                       size    0   flags    8
+  10 CABS                                       size    0   flags   28
+
